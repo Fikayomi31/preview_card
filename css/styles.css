@@ -1,0 +1,208 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    font-size: 14px;
+    font-family: "Montserrat", Fraunces;
+   /* margin: px px px px;*/
+    height: 900px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.image {
+    height: 400px;
+    width: 100%;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.perf {
+    margin: 10px;
+    padding: 10px;
+}
+.perfume {
+    margin-bottom: 10px;
+    /*font-weight: 700; */
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    letter-spacing: 0.15cm;
+    font-size: 12px;
+    font-weight: 600;
+}
+.word {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Fraunces", Montserrat;
+    color: hsl(212, 21%, 14%);
+}
+.wording {
+    margin-top: 20px;
+    font-size: 19px;
+    word-spacing: 0.1cm;
+    font-weight: 600;
+    color: hsl(228, 12%, 48%);
+    
+    line-height: 1.7;
+    font-family: Montserrat;
+}
+.money1 {
+    color: hsl(158, 36%, 37%);
+    margin-top: 10px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Fraunces;
+}
+.cancel {
+    font-family: Fraunces;
+    float: right;
+    position: relative;
+    top: -30px;
+    margin-right: 100px;
+    padding-right: 40px;
+    font-weight: 700;
+    color: hsl(228, 12%, 48%);
+}
+.cart {
+    background-color: hsl(158, 36%, 37%);
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+.add { 
+    margin-left: 10px; 
+    font-size: 19px;  
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: Fraunces;
+}
+.svg {
+    height: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* for mobile phones: */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+        
+        body {
+            background-color: hsl(30, 38%, 92%);
+        }
+        
+        main {
+            font-size: 14px;
+            font-family: "Montserrat", Fraunces;
+            margin: 40px 25px 25px 25px;
+            height: 850px;
+            border-radius: 15px;
+            background-color: hsl(0, 0%, 100%);
+        }
+        
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+        }
+        .image {
+            height: 300px;
+            width: 100%;
+        
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .perf {
+            margin: 10px;
+            padding: 10px;
+        }
+        .perfume {
+            margin-bottom: 10px;
+            /*font-weight: 700; */
+            color: hsl(228, 12%, 48%);
+            font-family: Montserrat;
+            letter-spacing: 0.15cm;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .word {
+            font-size: 45px;
+            font-weight: 700;
+            font-family: "Fraunces", Montserrat;
+            color: hsl(212, 21%, 14%);
+        }
+        .wording {
+            margin-top: 20px;
+            font-size: 19px;
+            word-spacing: 0.1cm;
+            font-weight: 600;
+            color: hsl(228, 12%, 48%);
+            
+            line-height: 1.7;
+            font-family: Montserrat;
+        }
+        .money1 {
+            color: hsl(158, 36%, 37%);
+            margin-top: 50px;
+            height: 50px;
+            font-size: 45px;
+            font-weight: 700;
+            font-family: Fraunces;
+        }
+        .cancel {
+            font-family: Fraunces;
+            float: right;
+            position: relative;
+            top: -30px;
+            margin-right: 100px;
+            padding-right: 40px;
+            font-weight: 700;
+            color: hsl(228, 12%, 48%);
+        }
+        .cart {
+            background-color: hsl(158, 36%, 37%);
+            margin-right: 30px;
+            margin-left: 30px;
+            border-radius: 10px;
+            height: 70px;
+            display: flex;
+
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            align-content: space-around;
+        }
+        .add { 
+            margin-left: 10px; 
+            font-size: 19px;  
+            color: hsl(0, 0%, 100%);
+            font-weight: 700;
+            font-family: Fraunces;
+        }
+        .svg {
+            height: 20px;
+        }
+
+
+}
